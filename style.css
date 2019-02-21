@@ -35,3 +35,27 @@ a {
   padding-right: 20px;
 }
 
+.hero {
+  background-image: url(assets/hero.jpg);
+  padding-top: 110px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: right bottom;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+
+}
+
+.intro {
+  max-width: 440px;
+}
+
