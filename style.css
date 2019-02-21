@@ -41,6 +41,7 @@ a {
   padding-bottom: 120px;
   background-size: cover;
   background-position: right bottom;
+  margin-bottom: 30px;
 }
 
 .hero h2 {
@@ -59,3 +60,35 @@ a {
   max-width: 440px;
 }
 
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters a {
+  color: #000;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.filters .selected {
+  font-weight: 700;
+  border-bottom: solid 3px #FEEA34;
+  padding-bottom: 1px;
+}
+
+
+.products .container {
+  display: flex;
+  /* by default flexbox puts everything onto the same line */
+  /* but by using flex wrap it allows us to have multiple rows. */
+  flex-wrap: wrap;
+  
+}
+
+.product {
+  width: 33.333%;
+}
+
+.products {
+  margin-bottom: 40px;
+}
