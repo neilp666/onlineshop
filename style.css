@@ -76,7 +76,6 @@ a {
   padding-bottom: 1px;
 }
 
-
 .products .container {
   display: flex;
   /* by default flexbox puts everything onto the same line */
@@ -87,8 +86,24 @@ a {
 
 .product {
   width: 33.333%;
+  position: relative;
 }
 
 .products {
   margin-bottom: 40px;
+}
+
+.overlay {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(254, 234, 52, 0.7);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 15px;
+}
+
+.product:hover .overlay {
+  opacity: 1;
 }
