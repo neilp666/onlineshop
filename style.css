@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Biryani', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
