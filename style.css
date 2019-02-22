@@ -207,6 +207,14 @@ a {
   }
 
   .filters li {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
+  }
+
+  .show-filters {
+    margin-bottom: 5px;
+  }
+
+  .filters-list {
+    display: none;
   }
 }
