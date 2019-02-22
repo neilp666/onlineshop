@@ -140,3 +140,35 @@ a {
     padding-right: 40px;
   }
 }
+
+@media (max-width: 770px) {
+
+  .hero {
+    background-image: none;
+    background-color: #BFBFB7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .intro {
+    max-width: none;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .intro h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  /* 20px is a good measure of gutter /padding to hav on mobile/smaller screens */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
