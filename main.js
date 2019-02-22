@@ -8,3 +8,9 @@ $('.show-filters').on('click', function() {
     $('.show-filters').text('Hide Filters')
   }
 })
+
+$('.filters-list a').on('click', function() {
+  console.log('it works!')
+  // this block the link from following the href
+  return true
+})
