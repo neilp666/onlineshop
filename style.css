@@ -125,6 +125,14 @@ a {
   font-size: 18px;
 }
 
+.filters li {
+  display: inline;
+}
+
+.show-filters {
+  display: none;
+}
+
 @media (max-width: 860px) {
   .hero {
     padding-top: 55px;
@@ -144,6 +152,7 @@ a {
   .filters .show-filters {
     color: #BFBFB7;
   }
+
 
 @media (max-width: 770px) {
 
@@ -178,7 +187,7 @@ a {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
   body {
     font-size: 16px;
@@ -187,5 +196,17 @@ a {
   .product {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .filters li {
+    display: block;
+  }
+
+  .show-filters {
+    display: block;
+  }
+
+  .filters li {
+    margin-bottom: 2px;
   }
 }
