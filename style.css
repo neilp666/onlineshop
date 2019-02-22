@@ -102,6 +102,7 @@ a {
   left: 0;
   top: 0;
   padding: 15px;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product:hover .overlay {
