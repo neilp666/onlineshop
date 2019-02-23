@@ -10,7 +10,13 @@ $('.show-filters').on('click', function() {
 })
 
 $('.filters-list a').on('click', function() {
-  console.log('it works!')
+
+  var filter = $(this).attr('data-filter')
   // this block the link from following the href
-  return true
+  console.log(filter)
+
+  $('.product').hide()
+  $(filter).show()
+
+  return false
 })
