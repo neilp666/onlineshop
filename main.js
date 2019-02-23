@@ -7,6 +7,8 @@ $('.show-filters').on('click', function() {
     $('.filters-list').slideDown()
     $('.show-filters').text('Hide Filters')
   }
+
+  return false
 })
 
 $('.filters-list a').on('click', function() {
@@ -18,5 +20,8 @@ $('.filters-list a').on('click', function() {
   $('.product').hide()
   $(filter).show()
 
+  $('.filters-list a').removeClass('selected')
+
+  $(this).addClass('selected')
   return false
 })
